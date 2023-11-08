@@ -1,0 +1,36 @@
+/* styles.css */
+
+nav {
+    background-color: #000b4f;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove the default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline; /* Display list items inline (horizontally) */
+    margin-right: 20px; /* Add some spacing between list items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from anchor links */
+    color: white; /* Text color of the links */
+    font-weight: bold; /* Bold font for the links */
+    font-size: 18px; /* Font size of the links */
+  }
+  
+  nav a:hover {
+    color: #ff9900; /* Change text color on hover */
+  }
+  
+  /* background-color: #000b4f;  Background color of the navigation bar */
+   /* display: flex;Display the list items in a row */
+   /* justify-content: space-around; /* Distribute the items horizontally */
+  /*  align-items: center; /* Center the items vertically */
+   /* height: 50px; Set the height of the navigation bar */
